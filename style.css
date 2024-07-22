@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: antiquewhite;
+    color: #333;
+    transition: background-color 0.3 ease;
+}
+#cabecera{
+    background-color: #fff; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+#cabecera img{
+    width: 3%;
+}
+#nombresitio{
+    font-size: 2em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #333;
+}
+.imagenes{
+    align-items: center;
+    width: 50%;
+}
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+#menugeneral ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    float: right;
+}
+#menugeneral ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+#menugeneral ul li a{
+    color: #333;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+#menugeneral ul li a:hover{
+    font-size: 1.5em;
+    color: #666;;
+}
+.hero {
+    padding: 100px 0;
+    background-color: antiquewhite; /* Fondo del héroe */
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #666;
+}
+.content{
+    padding: 50px 0;
+}
+
+.content h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.content p {
+    font-size: 1.1rem;
+    color: #555;
+}
+.Video{
+    width: 50%;
+}
+footer {
+    background-color: #333; /* Fondo del footer */
+    color: #fff; /* Color de texto del footer */
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
